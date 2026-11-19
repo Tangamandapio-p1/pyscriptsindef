@@ -1,0 +1,65 @@
+/*bueno lo volvemos a hacer todo de cero porque en el telefono se veia mas feo que el diablo pero esta vez usamos div*/
+.partep {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+.partesu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+body {
+    background-color: rgb(0, 119, 255);
+    margin: 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 280px;
+    margin: 20px;
+}
+input {
+    padding: 7px;
+    border-radius: 99px;
+}
+button {
+    border-radius: 10px;
+    width: 43px;
+    padding: 1px;
+    align-self: center;
+    font-size: 29px;
+}
+.titulo1{ position: relative;
+    top: -30px;
+}
+.titulo2{ position: relative;
+    top: -50px;
+}
+.cmedio{ position: relative;
+    top: -30px;
+}
+.Tsuma{ position: relative;
+    top: 20px;
+    font-size: 30px;
+    color: #000000;
+}
+.Rsuma { position: relative;
+    top: -10px;
+    color: #0c0b0b;
+}
+.Tsamu { position: relative;
+    top: -50px;
+    right: -200px;
+    color: #f8f8f7d0;
+}
+.undertale { position: relative;
+    color: #faf7fa;
+    right: 70px;
+}
+/*si al final no utilize todas las clases pero no lo voy a borrar ya son las 2 am y sigo aqui 'estoy cansado jefe' quizas utilize esas clases luego */
